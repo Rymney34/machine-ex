@@ -1,25 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import './machineQ.css';
 
-function App() {
+export function Machine() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div id='wrapper'>
+
+      <div id="quote-box">
+          <h1 id='text'>
+              Some text Quote 
+          </h1>
+            <h3 id='author'>
+              Author
+            </h3>
+              <div id='new-quote'>
+                <a id='tweet-quote'>
+                  New quote
+                </a>
+              </div>
+      
+      </div>
     </div>
   );
 }
 
-export default App;
+
+
+
+
+
+
+
+
