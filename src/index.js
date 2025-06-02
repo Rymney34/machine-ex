@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import {Machine} from './App.js';
-import {getQuote} from './getQuote.js';
+import Quotes from './getQuote.js';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
- 
+
     <Machine/>
   </React.StrictMode>
 );

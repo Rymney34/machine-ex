@@ -1,5 +1,5 @@
 
-// function Qoutes () {
+function Qoutes () {
 
 //     const getQuote = async () => {
 //         try{
@@ -18,4 +18,8 @@
 //     getQuote();
 
 // }
-// export default Qoutes();
+
+// function App() {
+ 
+}
+export default Qoutes();
